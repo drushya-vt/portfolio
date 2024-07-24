@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drushya Kumar - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+            line-height: 1.6;
+            text-align: left;
+        }
+        header {
+            background-color: #4b0082;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #main-content {
+            margin: 20px 0;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #4b0082;
+        }
+        .card p, .card ul {
+            margin: 10px 0;
+        }
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .card ul li {
+            background: #f0f2f5;
+            padding: 8px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+        }
+        .skill-item {
+            margin: 5px;
+            padding: 10px 15px;
+        }
+        .experience-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .experience-item {
+            background: #f0f2f5;
+            margin: 10px 0;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 90%;
+        }
+        footer {
+            background-color: #4b0082;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #4b0082;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+            text-align: left;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-title {
+            font-weight: bold;
+            color: #4b0082;
+            margin-bottom: 10px;
+        }
+        .project-details {
+            display: flex;
+            flex-direction: column;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Drushya Kumar</h1>
+            <p>Full Stack Developer | Software Engineer</p>
+        </div>
+    </header>
+
+    <div class="container" id="main-content">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a Full Stack Developer with experience in building web applications using modern technologies like React, Node.js, and more. I am passionate about creating efficient, scalable, and user-friendly applications. My expertise in advanced programming, cloud technologies,
+                and agile project management positions me well for technically demanding and problem-solving roles.</p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li class="skill-item">Java</li>
+                <li class="skill-item">C/C++</li>
+                <li class="skill-item">Python</li>
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">TypeScript</li>
+                <li class="skill-item">ReactJS</li>
+                <li class="skill-item">Node.js</li>
+                <li class="skill-item">Express.js</li>
+                <li class="skill-item">Django</li>
+                <li class="skill-item">Django REST Framework</li>
+                <li class="skill-item">MySQL</li>
+                <li class="skill-item">SQL</li>
+                <li class="skill-item">PostgreSQL</li>
+                <li class="skill-item">AWS</li>
+                <li class="skill-item">Jira</li>
+                <li class="skill-item">Git</li>
+                <li class="skill-item">Docker</li>
+                <li class="skill-item">Kubernetes</li>
+                <li class="skill-item">Jenkins</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Work Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <strong>Senior Software Developer - Kickdrum Technologies (Jul 2022 – Jul 2023)</strong>
+                    <ul>
+                        <li>Developed a centralized state management system using React Redux for Kickdrum’s resource tool, streamlined workflows, and boosted performance by 20%.</li>
+                        <li>Implemented a data archiving system to maintain data integrity, facilitated efficient real-time processing, and reduced operational costs by 15%.</li>
+                        <li>Directed database migration across multiple servers with millisecond-level transfers, achieving minimal downtime and increasing operational efficiency by 40%.</li>
+                        <li>Supervised 5+ team members, enhancing code quality and testing rigor.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <strong>Software Developer - Kickdrum Technologies (Jul 2021 – Jun 2022)</strong>
+                    <ul>
+                        <li>Orchestrated bot integration using Kubernetes and Docker for Slack/Microsoft Teams, enhancing deployment scalability and streamlining user access.</li>
+                        <li>Automated 75% of daily tasks through RPA, increasing operational efficiency by 50% and reducing costs by 30%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <div class="project-title">Django-Based E-commerce Platform (Jun 2024 – Aug 2024)</div>
+                <div class="project-details">
+                    <p>Developed a scalable e-commerce platform back-end using Django, Django Template Language, and Django REST framework. Integrated APIs with 3rd party systems, optimized PostgreSQL database, and implemented DevOps practices with Jenkins, Docker, and Kubernetes, enhancing functionality, ensuring data integrity, and achieving seamless deployment and scaling on AWS.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Analyzing Food Reviews & Crafting Personalized Recommendations (Jan 2024 – May 2024)</div>
+                <div class="project-details">
+                    <p>Collaborated on a project that analyzed a dataset of fine food reviews from Amazon. Conducted network analysis, centrality analysis, clustering coefficient analysis, small world network and heavy-tail analysis. Developed a recommendation system using techniques like cosine similarity and SVD for collaborative filtering. Implemented sentiment analysis to gain insights from reviews, providing personalized recommendations based on user preferences and review history.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Bookstore (Aug 2023 – Dec 2023)</div>
+                <div class="project-details">
+                    <p>Developed a high-performance SPA for a bookstore, optimizing data fetching and centralizing management, which led to a 30% reduction in data retrieval time, a 20% decrease in form errors, and improved system scalability by 25% through a RESTful API.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Web-Based Dashboard (Aug 2023 – Dec 2023)</div>
+                <div class="project-details">
+                    <p>Analyzed a comprehensive insurance dataset to reveal key relationships between demographics, health behaviors, and insurance costs, leading to identification of cost drivers and a 15% reduction in overall insurance costs.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Hostel Ledger & Health Monitoring (Aug 2020 – Jan 2021)</div>
+                <div class="project-details">
+                    <p>Devised a 3-tier architectural system for dormitory ledger management, integrated authentication, and database triggers, ensuring secure access to health data, facilitating emergency alert transmission, and enabling remote health monitoring, especially crucial during a pandemic.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Social Media Analytics (Jan 2020 – Mar 2020)</div>
+                <div class="project-details">
+                    <p>Analyzed Twitter sentiments on specific keywords using classification methods and visualizations like trend analysis and word clouds; developed a supervised machine-learning model achieving a 92% accuracy rate.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:drushyack@vt.edu">drushyack@vt.edu</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/drushya-kumar-b70888189/" target="_blank">linkedin.com/in/drushya-kumar-b70888189/</a></p>
+            <p>GitHub: <a href="https://github.com/drushya-vt" target="_blank">github.com/drushya-vt</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Drushya Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
